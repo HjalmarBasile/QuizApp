@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal500</color>
+    <color name="colorPrimaryDark">@color/teal700</color>
+    <color name="colorAccent">@android:color/holo_blue_dark</color>
+    <color name="colorButtonNormal">@color/teal050</color>
+
+    <color name="teal050">#E0F2F1</color>
+    <color name="teal100">#B2DFDB</color>
+    <color name="teal200">#80CBC4</color>
+    <color name="teal300">#4DB6AC</color>
+    <color name="teal400">#26A69A</color>
+    <color name="teal500">#009688</color>
+    <color name="teal600">#00897B</color>
+    <color name="teal700">#00796B</color>
+</resources>

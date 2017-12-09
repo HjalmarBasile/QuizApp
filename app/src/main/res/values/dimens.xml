@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_horizontal_padding">16dp</dimen>
+    <dimen name="top_text_padding_bottom">16dp</dimen>
+    <dimen name="card_view_margin">16dp</dimen>
+    <dimen name="card_view_corner_radius">16dp</dimen>
+    <dimen name="radio_group_padding">16dp</dimen>
+    <dimen name="text_view_of_radio_group_padding">8dp</dimen>
+    <dimen name="text_view_question_padding_horizontal">24dp</dimen>
+    <dimen name="radio_button_padding_horizontal">16dp</dimen>
+    <dimen name="button_margin_horizontal">8dp</dimen>
+</resources>

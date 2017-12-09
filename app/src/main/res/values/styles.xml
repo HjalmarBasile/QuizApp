@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorButtonNormal">@color/colorButtonNormal</item>
+    </style>
+
+    <!-- CardView style. -->
+    <style name="card_view_app">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/card_view_margin</item>
+    </style>
+
+    <!-- TextView title style. -->
+    <style name="title_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/top_text_padding_bottom</item>
+        <item name="android:text">@string/pink_floyd_trivia</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/teal050</item>
+    </style>
+
+    <!-- TextView free text style. -->
+    <style name="free_text_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingEnd">@dimen/text_view_question_padding_horizontal</item>
+        <item name="android:paddingStart">@dimen/text_view_question_padding_horizontal</item>
+        <item name="android:text">@string/question_lorem_ipsum</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- EditText answer style. -->
+    <style name="free_text_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- RadioGroup style. -->
+    <style name="radio_group_app">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/radio_group_padding</item>
+    </style>
+
+    <!-- TextView of RadioGroup style. -->
+    <style name="text_view_of_radio_group_app">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_view_of_radio_group_padding</item>
+        <item name="android:text">@string/question_lorem_ipsum</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Multiple answer item style. -->
+    <style name="multiple_answer_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/radio_button_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/radio_button_padding_horizontal</item>
+        <item name="android:text">@string/answer_lorem_ipsum</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Bottom element style. -->
+    <style name="bottom_element">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Bottom TextView style. -->
+    <style name="bottom_text_view" parent="bottom_element">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/teal050</item>
+    </style>
+
+</resources>

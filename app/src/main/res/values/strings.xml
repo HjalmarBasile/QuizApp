@@ -1,0 +1,11 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="pink_floyd_trivia">Pink Floyd Trivia</string>
+    <string name="question_lorem_ipsum">Question Lorem Ipsum?</string>
+    <string name="answer_lorem_ipsum">Answer Lorem Ipsum</string>
+    <string name="answer">Answer</string>
+    <string name="submit">Submit</string>
+    <string name="score">Score: <xliff:g example="0" id="current_score">%d</xliff:g></string>
+    <string name="progress"><xliff:g example="0" id="current_progress">%d</xliff:g> / <xliff:g example="9" id="total_questions">%d</xliff:g></string>
+    <string name="toast_text">You scored <xliff:g example="10" id="current_score">%d</xliff:g> out of <xliff:g example="20" id="total_score">%d</xliff:g> (<xliff:g example="50.00%" id="percentage">%s</xliff:g>)</string>
+</resources>

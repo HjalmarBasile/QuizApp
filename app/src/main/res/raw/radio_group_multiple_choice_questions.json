@@ -1,0 +1,55 @@
+{
+  "radio_group_multiple_choice_questions": [
+    {
+      "score": "4",
+      "text": "The name of Pink Floyd's bassist is:",
+      "correct_answer": "Roger Waters",
+      "wrong_answers": [
+        "Richard Wright",
+        "Nick Mason",
+        "David Gilmour"
+      ]
+    },
+    {
+      "score": "5",
+      "text": "For which of his movies did the italian director Michelangelo Antonioni commission the soundtrack to Pink Floyd?",
+      "correct_answer": "Zabriskie Point",
+      "wrong_answers": [
+        "Blowup",
+        "Il deserto rosso",
+        "La notte"
+      ]
+    },
+    {
+      "score": "3",
+      "text": "Which of these songs is part of Pink Floyd's album Meddle?",
+      "correct_answer": "Echoes",
+      "wrong_answers": [
+        "Interstellar Overdrive",
+        "A Saucerful of Secrets",
+        "Cymbaline"
+      ]
+    },
+    {
+      "score": "3",
+      "text": "Which of the following Pink Floyd's song is dedicated to former member Syd Barrett?",
+      "correct_answer": "Wish You Were Here",
+      "wrong_answers": [
+        "Keep Talking",
+        "Us and Them",
+        "Summer '68"
+      ]
+    },
+    {
+      "score": "5",
+      "text": "Which Pink Floyd's album contains their longest title song?",
+      "correct_answer": "Ummagumma",
+      "wrong_answers": [
+        "The Piper at the Gates of Dawn",
+        "The Dark Side of the Moon",
+        "More"
+      ]
+    }
+  ]
+}
+

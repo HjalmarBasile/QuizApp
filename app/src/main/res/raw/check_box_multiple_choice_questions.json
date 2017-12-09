@@ -1,0 +1,52 @@
+{
+  "check_box_multiple_choice_questions": [
+    {
+      "score": "5",
+      "text": "Which of the following are section titles of Pink Floyd's composition \"Atom Heart Mother\"?",
+      "correct_answers": [
+        "Breast Milky",
+        "Funky Dung"
+      ],
+      "wrong_answers": [
+        "The Womb Bit",
+        "Mother Atom"
+      ]
+    },
+    {
+      "score": "4",
+      "text": "Which of the following are not albums by Pink Floyd?",
+      "correct_answers": [
+        "In the Court of the Crimson King",
+        "Pawn Hearts",
+        "Foxtrot"
+      ],
+      "wrong_answers": [
+        "Obscured by Clouds"
+      ]
+    },
+    {
+      "score": "5",
+      "text": "The lyrics of the album Animals describe various classes in society as different kinds of animals, such as:",
+      "correct_answers": [
+        "Pigs",
+        "Dogs",
+        "Sheep"
+      ],
+      "wrong_answers": [
+        "Cats"
+      ]
+    },
+    {
+      "score": "5",
+      "text": "Which of the following songs are part of Pink Floyd's album \"The Wall\"?",
+      "correct_answers": [
+        "Comfortably Numb",
+        "Hey You",
+        "Mother"
+      ],
+      "wrong_answers": [
+        "Wish You Were Here"
+      ]
+    }
+  ]
+}

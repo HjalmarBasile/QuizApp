@@ -1,0 +1,24 @@
+{
+  "free_text_questions": [
+    {
+      "score": "5",
+      "text": "In which year was the first Pink Floyd album released?",
+      "answer": "1967"
+    },
+    {
+      "score": "3",
+      "text": "Which Pink Floyd's song starts with clock sounds?",
+      "answer": "Time"
+    },
+    {
+      "score": "5",
+      "text": "What is the surname of the bluesman named Pink from whom part of the name Pink Floyd was derived?",
+      "answer": "Anderson"
+    },
+    {
+      "score": "4",
+      "text": "Which Pink Floyd's album has the Battersea Power Station depicted in its cover?",
+      "answer": "Animals"
+    }
+  ]
+}
