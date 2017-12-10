@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the current progress.
      */
     private void displayCurrentProgress() {
-        int currentProgress = currentQuestionIndex + 1;
+        int currentProgress = (currentQuestionIndex < TOTAL_NUMBER_OF_QUESTIONS) ? currentQuestionIndex + 1 : TOTAL_NUMBER_OF_QUESTIONS;
         TextView progressTextView = findViewById(R.id.progress);
         progressTextView.setText(getString(R.string.progress, currentProgress, TOTAL_NUMBER_OF_QUESTIONS));
     }
@@ -111,7 +111,8 @@ public class MainActivity extends AppCompatActivity {
      * Displays the current question.
      */
     private void displayCurrentQuestion() {
-        AbstractQuestion currentQuestion = allSelectedQuestions.get(currentQuestionIndex);
+        int index = (currentQuestionIndex < TOTAL_NUMBER_OF_QUESTIONS) ? currentQuestionIndex : TOTAL_NUMBER_OF_QUESTIONS - 1;
+        AbstractQuestion currentQuestion = allSelectedQuestions.get(index);
         if (currentQuestion instanceof RadioGroupMultipleChoiceQuestion) {
             fillRadioGroup((RadioGroupMultipleChoiceQuestion) currentQuestion);
         } else if (currentQuestion instanceof CheckBoxMultipleChoiceQuestion) {
