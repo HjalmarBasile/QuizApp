@@ -2,7 +2,7 @@
 <resources>
     <item name="gradient_alpha" format="float" type="dimen">0.9</item>
     <dimen name="standard_horizontal_padding">16dp</dimen>
-    <dimen name="top_text_padding_bottom">16dp</dimen>
+    <dimen name="top_text_padding">16dp</dimen>
     <dimen name="card_view_margin">16dp</dimen>
     <dimen name="card_view_corner_radius">16dp</dimen>
     <dimen name="radio_group_padding">16dp</dimen>

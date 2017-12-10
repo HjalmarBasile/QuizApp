@@ -11,7 +11,7 @@
     <!-- CardView style. -->
     <style name="card_view_app">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_gravity">center</item>
@@ -24,7 +24,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:gravity">center</item>
-        <item name="android:paddingBottom">@dimen/top_text_padding_bottom</item>
+        <item name="android:padding">@dimen/top_text_padding</item>
         <item name="android:text">@string/pink_floyd_trivia</item>
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
         <item name="android:textColor">@color/teal050</item>

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scroll_view"
+    android:id="@+id/outer_relative_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/outer_relative_layout"
+    <FrameLayout
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <FrameLayout
-            android:id="@+id/frame_layout"
+        <ImageView
+            android:id="@+id/background"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/meddle_back" />
 
-            <ImageView
-                android:id="@+id/background"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/background"
-                android:scaleType="centerCrop"
-                android:src="@drawable/meddle_back" />
+        <View
+            android:id="@+id/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="@dimen/gradient_alpha"
+            android:background="@drawable/gradient" />
 
-            <View
-                android:id="@+id/gradient"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:alpha="@dimen/gradient_alpha"
-                android:background="@drawable/gradient" />
+    </FrameLayout>
 
-        </FrameLayout>
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:context=".MainActivity">
 
         <LinearLayout
             android:id="@+id/main_linear_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -151,6 +151,6 @@
 
         </LinearLayout>
 
-    </RelativeLayout>
+    </ScrollView>
 
-</ScrollView>
+</RelativeLayout>
