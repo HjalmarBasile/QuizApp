@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="gradient_alpha" format="float" type="dimen">0.9</item>
     <dimen name="standard_horizontal_padding">16dp</dimen>
     <dimen name="top_text_padding_bottom">16dp</dimen>
     <dimen name="card_view_margin">16dp</dimen>

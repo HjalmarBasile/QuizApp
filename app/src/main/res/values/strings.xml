@@ -1,5 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz App</string>
+    <string name="background">Background</string>
     <string name="pink_floyd_trivia">Pink Floyd Trivia</string>
     <string name="question_lorem_ipsum">Question Lorem Ipsum?</string>
     <string name="answer_lorem_ipsum">Answer Lorem Ipsum</string>
