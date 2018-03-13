@@ -15,7 +15,7 @@ import java.util.List;
 public abstract class AbstractMultipleChoiceQuestion extends AbstractQuestion {
 
     protected List<String> correctAnswers;
-    protected List<String> wrongAnswers;
+    private List<String> wrongAnswers;
     private List<String> permutatedAnswers;
     private int numberOfChoices;
 
