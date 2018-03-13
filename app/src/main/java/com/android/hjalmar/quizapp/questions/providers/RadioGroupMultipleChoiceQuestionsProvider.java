@@ -9,9 +9,12 @@ import com.android.hjalmar.quizapp.questions.RadioGroupMultipleChoiceQuestion;
 
 public class RadioGroupMultipleChoiceQuestionsProvider extends AbstractQuestionsProvider<RadioGroupMultipleChoiceQuestion> {
 
-    private static final RadioGroupMultipleChoiceQuestionsProvider ourInstance = new RadioGroupMultipleChoiceQuestionsProvider();
+    private static RadioGroupMultipleChoiceQuestionsProvider ourInstance = null;
 
-    public static RadioGroupMultipleChoiceQuestionsProvider getInstance() {
+    public static synchronized RadioGroupMultipleChoiceQuestionsProvider getInstance() {
+        if (ourInstance == null) {
+            ourInstance = new RadioGroupMultipleChoiceQuestionsProvider();
+        }
         return ourInstance;
     }
 

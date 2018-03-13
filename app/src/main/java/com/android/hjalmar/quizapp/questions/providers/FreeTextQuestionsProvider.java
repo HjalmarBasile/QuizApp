@@ -9,9 +9,12 @@ import com.android.hjalmar.quizapp.questions.FreeTextQuestion;
 
 public class FreeTextQuestionsProvider extends AbstractQuestionsProvider<FreeTextQuestion> {
 
-    private static final FreeTextQuestionsProvider ourInstance = new FreeTextQuestionsProvider();
+    private static FreeTextQuestionsProvider ourInstance = null;
 
-    public static FreeTextQuestionsProvider getInstance() {
+    public static synchronized FreeTextQuestionsProvider getInstance() {
+        if (ourInstance == null) {
+            ourInstance = new FreeTextQuestionsProvider();
+        }
         return ourInstance;
     }
 

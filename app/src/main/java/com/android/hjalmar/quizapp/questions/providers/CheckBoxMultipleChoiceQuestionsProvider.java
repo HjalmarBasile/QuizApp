@@ -9,9 +9,12 @@ import com.android.hjalmar.quizapp.questions.CheckBoxMultipleChoiceQuestion;
 
 public class CheckBoxMultipleChoiceQuestionsProvider extends AbstractQuestionsProvider<CheckBoxMultipleChoiceQuestion> {
 
-    private static final CheckBoxMultipleChoiceQuestionsProvider ourInstance = new CheckBoxMultipleChoiceQuestionsProvider();
+    private static CheckBoxMultipleChoiceQuestionsProvider ourInstance = null;
 
-    public static CheckBoxMultipleChoiceQuestionsProvider getInstance() {
+    public static synchronized CheckBoxMultipleChoiceQuestionsProvider getInstance() {
+        if (ourInstance == null) {
+            ourInstance = new CheckBoxMultipleChoiceQuestionsProvider();
+        }
         return ourInstance;
     }
 
