@@ -31,10 +31,10 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     /* Number of selected questions for every possible kind */
-    private final int NUMBER_OF_SELECTED_RADIO_GROUP_QUESTIONS = 4;
-    private final int NUMBER_OF_SELECTED_CHECK_BOX_QUESTIONS = 3;
-    private final int NUMBER_OF_SELECTED_FREE_TEXT_QUESTIONS = 2;
-    private final int TOTAL_NUMBER_OF_QUESTIONS = NUMBER_OF_SELECTED_RADIO_GROUP_QUESTIONS + NUMBER_OF_SELECTED_CHECK_BOX_QUESTIONS + NUMBER_OF_SELECTED_FREE_TEXT_QUESTIONS;
+    private static final int NUMBER_OF_SELECTED_RADIO_GROUP_QUESTIONS = 4;
+    private static final int NUMBER_OF_SELECTED_CHECK_BOX_QUESTIONS = 3;
+    private static final int NUMBER_OF_SELECTED_FREE_TEXT_QUESTIONS = 2;
+    private static final int TOTAL_NUMBER_OF_QUESTIONS = NUMBER_OF_SELECTED_RADIO_GROUP_QUESTIONS + NUMBER_OF_SELECTED_CHECK_BOX_QUESTIONS + NUMBER_OF_SELECTED_FREE_TEXT_QUESTIONS;
 
     /* Lists of selected questions for every possible kind */
     private static List<RadioGroupMultipleChoiceQuestion> selectedRadioGroupQuestions;
