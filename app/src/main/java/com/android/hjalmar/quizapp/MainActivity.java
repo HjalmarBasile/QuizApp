@@ -12,10 +12,10 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.hjalmar.quizapp.questions.AbstractQuestion;
 import com.android.hjalmar.quizapp.questions.CheckBoxMultipleChoiceQuestion;
 import com.android.hjalmar.quizapp.questions.FreeTextQuestion;
 import com.android.hjalmar.quizapp.questions.RadioGroupMultipleChoiceQuestion;
+import com.android.hjalmar.quizapp.questions.abstraction.AbstractQuestion;
 import com.android.hjalmar.quizapp.questions.providers.CheckBoxMultipleChoiceQuestionsProvider;
 import com.android.hjalmar.quizapp.questions.providers.FreeTextQuestionsProvider;
 import com.android.hjalmar.quizapp.questions.providers.RadioGroupMultipleChoiceQuestionsProvider;

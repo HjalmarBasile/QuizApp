@@ -1,5 +1,6 @@
 package com.android.hjalmar.quizapp.questions;
 
+import com.android.hjalmar.quizapp.questions.abstraction.AbstractMultipleChoiceQuestion;
 import com.android.hjalmar.quizapp.utils.StringUtils;
 
 import java.security.InvalidParameterException;

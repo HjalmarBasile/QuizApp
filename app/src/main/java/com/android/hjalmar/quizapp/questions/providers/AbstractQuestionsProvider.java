@@ -1,6 +1,6 @@
 package com.android.hjalmar.quizapp.questions.providers;
 
-import com.android.hjalmar.quizapp.questions.AbstractQuestion;
+import com.android.hjalmar.quizapp.questions.abstraction.AbstractQuestion;
 import com.android.hjalmar.quizapp.utils.RandomPermutationUtils;
 
 import java.util.ArrayList;

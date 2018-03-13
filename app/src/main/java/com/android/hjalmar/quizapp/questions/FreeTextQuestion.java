@@ -1,5 +1,7 @@
 package com.android.hjalmar.quizapp.questions;
 
+import com.android.hjalmar.quizapp.questions.abstraction.AbstractQuestion;
+
 import java.util.List;
 
 /**

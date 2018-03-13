@@ -1,4 +1,4 @@
-package com.android.hjalmar.quizapp.questions;
+package com.android.hjalmar.quizapp.questions.abstraction;
 
 import java.util.List;
 
