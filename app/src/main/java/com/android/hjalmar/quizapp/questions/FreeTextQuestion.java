@@ -36,7 +36,7 @@ public class FreeTextQuestion extends AbstractQuestion {
         if (userAnswers.size() != 1) {
             throw new IllegalArgumentException("FreeTextQuestion allows only one single correct answer");
         }
-        String userAnswer = userAnswers.get(0);
+        String userAnswer = userAnswers.get(0).trim();
         return answer.equalsIgnoreCase(userAnswer) ? getScore() : 0;
     }
 
