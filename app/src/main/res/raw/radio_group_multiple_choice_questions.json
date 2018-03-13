@@ -49,7 +49,16 @@
         "The Dark Side of the Moon",
         "More"
       ]
+    },
+    {
+      "score": "5",
+      "text": "In which band did David Gilmour play before joining Pink Floyd?",
+      "correct_answer": "Jokers Wild",
+      "wrong_answers": [
+        "The Beatles",
+        "Tea Set",
+        "The Pretty Things"
+      ]
     }
   ]
 }
-

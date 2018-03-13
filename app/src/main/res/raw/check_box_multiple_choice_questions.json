@@ -47,6 +47,18 @@
       "wrong_answers": [
         "Wish You Were Here"
       ]
+    },
+    {
+      "score": "5",
+      "text": "Which of the following Pink Floyd albums were conceived as movie soundtrack?",
+      "correct_answers": [
+        "More",
+        "Obscured by Clouds"
+      ],
+      "wrong_answers": [
+        "A Saucerful of Secrets",
+        "The Division Bell"
+      ]
     }
   ]
 }
